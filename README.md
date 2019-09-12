@@ -1,6 +1,9 @@
 # Multilayer-Perceptron
 MLP in Python
 
+https://github.com/jorgesleonel/Multilayer-Perceptron/blob/master/Basic%20Multi-Layer%20Perceptron.ipynb
+
+
 The Perceptron, that neural network whose name evokes how the future looked from the perspective of the 1950s, 
 is a simple algorithm intended to perform binary classification; i.e. it predicts whether input belongs to a certain 
 category of interest or not (ex: fraud/ not-fraud).
@@ -47,5 +50,5 @@ the error minimum. (this can be done with any gradient-based optimization algori
 
 The network keeps playing that game of ping-pong until the error can go no lower. This state is known as convergence.
 
-!{MLP](https://www.researchgate.net/profile/Mohamed_Zahran6/publication/303875065/figure/fig4/AS:371118507610123@1465492955561/A-hypothetical-example-of-Multilayer-Perceptron-Network.png)
+![MLP](https://www.researchgate.net/profile/Mohamed_Zahran6/publication/303875065/figure/fig4/AS:371118507610123@1465492955561/A-hypothetical-example-of-Multilayer-Perceptron-Network.png)
 
