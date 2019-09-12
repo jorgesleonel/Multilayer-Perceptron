@@ -39,10 +39,13 @@ forth (forward and backward passes):
 
 . In the forward pass, the signal flow moves from the input layer through the hidden layers to the output layer, and
 the decision of the output layer is measured against the ground truth labels;
+
 . In the backward pass, using backpropagation and the chain rule of calculus, partial derivatives of the error function
 regarding the various weights and biases are back-propagated through the MLP. That act of differentiation gives us a 
 gradient, or a landscape of error, along which the parameters may be adjusted as they move the MLP one step closer to
 the error minimum. (this can be done with any gradient-based optimization algorithm such as stochastic gradient descent).
 
 The network keeps playing that game of ping-pong until the error can go no lower. This state is known as convergence.
+
+!{MLP](https://www.researchgate.net/profile/Mohamed_Zahran6/publication/303875065/figure/fig4/AS:371118507610123@1465492955561/A-hypothetical-example-of-Multilayer-Perceptron-Network.png)
 
